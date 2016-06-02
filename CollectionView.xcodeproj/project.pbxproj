@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92DAAB6D1CFFF44E00DD8669 /* CollectionViewReloadData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewReloadData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DAAB6D1CFFF44E00DD8669 /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DAAB701CFFF44E00DD8669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DAAB721CFFF44E00DD8669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92DAAB751CFFF44E00DD8669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		92DAAB641CFFF44E00DD8669 = {
 			isa = PBXGroup;
 			children = (
-				92DAAB6F1CFFF44E00DD8669 /* CollectionViewReloadData */,
+				92DAAB6F1CFFF44E00DD8669 /* CollectionView */,
 				92DAAB6E1CFFF44E00DD8669 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		92DAAB6E1CFFF44E00DD8669 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92DAAB6D1CFFF44E00DD8669 /* CollectionViewReloadData.app */,
+				92DAAB6D1CFFF44E00DD8669 /* CollectionView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92DAAB6F1CFFF44E00DD8669 /* CollectionViewReloadData */ = {
+		92DAAB6F1CFFF44E00DD8669 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				92DAAB701CFFF44E00DD8669 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				92DAAB791CFFF44E00DD8669 /* LaunchScreen.storyboard */,
 				92DAAB7C1CFFF44E00DD8669 /* Info.plist */,
 			);
+			name = CollectionView;
 			path = CollectionViewReloadData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92DAAB6C1CFFF44E00DD8669 /* CollectionViewReloadData */ = {
+		92DAAB6C1CFFF44E00DD8669 /* CollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92DAAB7F1CFFF44E00DD8669 /* Build configuration list for PBXNativeTarget "CollectionViewReloadData" */;
+			buildConfigurationList = 92DAAB7F1CFFF44E00DD8669 /* Build configuration list for PBXNativeTarget "CollectionView" */;
 			buildPhases = (
 				92DAAB691CFFF44E00DD8669 /* Sources */,
 				92DAAB6A1CFFF44E00DD8669 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = CollectionViewReloadData;
+			name = CollectionView;
 			productName = CollectionViewReloadData;
-			productReference = 92DAAB6D1CFFF44E00DD8669 /* CollectionViewReloadData.app */;
+			productReference = 92DAAB6D1CFFF44E00DD8669 /* CollectionView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92DAAB681CFFF44E00DD8669 /* Build configuration list for PBXProject "CollectionViewReloadData" */;
+			buildConfigurationList = 92DAAB681CFFF44E00DD8669 /* Build configuration list for PBXProject "CollectionView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92DAAB6C1CFFF44E00DD8669 /* CollectionViewReloadData */,
+				92DAAB6C1CFFF44E00DD8669 /* CollectionView */,
 			);
 		};
 /* End PBXProject section */
@@ -250,29 +251,27 @@
 		92DAAB801CFFF44E00DD8669 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollectionViewReloadData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sea.CollectionViewReloadData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CollectionView;
 			};
 			name = Debug;
 		};
 		92DAAB811CFFF44E00DD8669 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollectionViewReloadData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sea.CollectionViewReloadData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CollectionView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92DAAB681CFFF44E00DD8669 /* Build configuration list for PBXProject "CollectionViewReloadData" */ = {
+		92DAAB681CFFF44E00DD8669 /* Build configuration list for PBXProject "CollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92DAAB7D1CFFF44E00DD8669 /* Debug */,
@@ -281,13 +280,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92DAAB7F1CFFF44E00DD8669 /* Build configuration list for PBXNativeTarget "CollectionViewReloadData" */ = {
+		92DAAB7F1CFFF44E00DD8669 /* Build configuration list for PBXNativeTarget "CollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92DAAB801CFFF44E00DD8669 /* Debug */,
 				92DAAB811CFFF44E00DD8669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
