@@ -40,7 +40,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func loadData() {
         
-        for index in 0...4 {
+        for index in 0...3 {
             images.append(UIImage(named: String(index))!)
         }
     }
